@@ -1,8 +1,59 @@
+/* website styles */
+
+* {
+  font-size: 100%;
+}
+
 body {
   background-color: Black;
   color: Maroon;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 14px;
 }
 h1 {
   color: Maroon;
   font-family: 'Xanh Mono', monospace;
+  font-size: 36px;
+  text-align: left;
+}
+
+header h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size:18px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none:
+  color: maroon;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
 }
