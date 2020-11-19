@@ -13,6 +13,8 @@ body {
   color: Maroon;
   font-family: 'Xanh Mono', monospace;
   font-size: 14px;
+  background-image: url(images/papyrus-dark.png);
+  background-repeat: repeat;
 }
 h1 {
   color: Maroon;
@@ -84,4 +86,14 @@ img {
 .title {
   font-size: 48px;
   text-decoration: underline;
+}
+.container {
+  max-width: 1000px;
+  margin:0 auto;
+}
+.banner {
+  height: 350px;
+  background-image: url(images/abandoned.jpg);
+  background-size: cover;
+  background-position: center;
 }
